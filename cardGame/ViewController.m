@@ -30,6 +30,8 @@
         Card * card = [_deck drawCardWithRandom];
         [sender setBackground:image];
         [sender setTitle:card.content];
+        
+        
     }
     else
     {
