@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDF9BCF819382260006DB255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9BCF719382260006DB255 /* Foundation.framework */; };
+		DDF9BCFA19382260006DB255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9BCF919382260006DB255 /* CoreGraphics.framework */; };
+		DDF9BCFC19382260006DB255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9BCFB19382260006DB255 /* UIKit.framework */; };
+		DDF9BD0219382260006DB255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF9BD0019382260006DB255 /* InfoPlist.strings */; };
+		DDF9BD0419382260006DB255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD0319382260006DB255 /* main.m */; };
+		DDF9BD0819382260006DB255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD0719382260006DB255 /* AppDelegate.m */; };
+		DDF9BD0B19382260006DB255 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF9BD0919382260006DB255 /* Main_iPhone.storyboard */; };
+		DDF9BD0E19382260006DB255 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF9BD0C19382260006DB255 /* Main_iPad.storyboard */; };
+		DDF9BD1119382260006DB255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD1019382260006DB255 /* ViewController.m */; };
+		DDF9BD1319382260006DB255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF9BD1219382260006DB255 /* Images.xcassets */; };
+		DDF9BD1A19382260006DB255 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9BD1919382260006DB255 /* XCTest.framework */; };
+		DDF9BD1B19382260006DB255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9BCF719382260006DB255 /* Foundation.framework */; };
+		DDF9BD1C19382260006DB255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9BCFB19382260006DB255 /* UIKit.framework */; };
+		DDF9BD2419382260006DB255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF9BD2219382260006DB255 /* InfoPlist.strings */; };
+		DDF9BD2619382260006DB255 /* cardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD2519382260006DB255 /* cardGameTests.m */; };
+		DDF9BD31193822B3006DB255 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD30193822B3006DB255 /* Card.m */; };
+		DDF9BD3419382678006DB255 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD3319382678006DB255 /* PlayingCard.m */; };
+		DDF9BD37193828B5006DB255 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD36193828B5006DB255 /* Deck.m */; };
+		DDF9BD3A19382E54006DB255 /* PlayingDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9BD3919382E54006DB255 /* PlayingDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF9BD1D19382260006DB255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF9BCEC19382260006DB255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF9BCF319382260006DB255;
+			remoteInfo = cardGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDF9BCF419382260006DB255 /* cardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF9BCF719382260006DB255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDF9BCF919382260006DB255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDF9BCFB19382260006DB255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDF9BCFF19382260006DB255 /* cardGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cardGame-Info.plist"; sourceTree = "<group>"; };
+		DDF9BD0119382260006DB255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDF9BD0319382260006DB255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDF9BD0519382260006DB255 /* cardGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cardGame-Prefix.pch"; sourceTree = "<group>"; };
+		DDF9BD0619382260006DB255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDF9BD0719382260006DB255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDF9BD0A19382260006DB255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DDF9BD0D19382260006DB255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DDF9BD0F19382260006DB255 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDF9BD1019382260006DB255 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDF9BD1219382260006DB255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDF9BD1819382260006DB255 /* cardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF9BD1919382260006DB255 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDF9BD2119382260006DB255 /* cardGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cardGameTests-Info.plist"; sourceTree = "<group>"; };
+		DDF9BD2319382260006DB255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDF9BD2519382260006DB255 /* cardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardGameTests.m; sourceTree = "<group>"; };
+		DDF9BD2F193822B3006DB255 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		DDF9BD30193822B3006DB255 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		DDF9BD3219382678006DB255 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		DDF9BD3319382678006DB255 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		DDF9BD35193828B5006DB255 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		DDF9BD36193828B5006DB255 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		DDF9BD3819382E54006DB255 /* PlayingDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingDeck.h; sourceTree = "<group>"; };
+		DDF9BD3919382E54006DB255 /* PlayingDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF9BCF119382260006DB255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9BCFA19382260006DB255 /* CoreGraphics.framework in Frameworks */,
+				DDF9BCFC19382260006DB255 /* UIKit.framework in Frameworks */,
+				DDF9BCF819382260006DB255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF9BD1519382260006DB255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9BD1A19382260006DB255 /* XCTest.framework in Frameworks */,
+				DDF9BD1C19382260006DB255 /* UIKit.framework in Frameworks */,
+				DDF9BD1B19382260006DB255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDF9BCEB19382260006DB255 = {
+			isa = PBXGroup;
+			children = (
+				DDF9BCFD19382260006DB255 /* cardGame */,
+				DDF9BD1F19382260006DB255 /* cardGameTests */,
+				DDF9BCF619382260006DB255 /* Frameworks */,
+				DDF9BCF519382260006DB255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF9BCF519382260006DB255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9BCF419382260006DB255 /* cardGame.app */,
+				DDF9BD1819382260006DB255 /* cardGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF9BCF619382260006DB255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9BCF719382260006DB255 /* Foundation.framework */,
+				DDF9BCF919382260006DB255 /* CoreGraphics.framework */,
+				DDF9BCFB19382260006DB255 /* UIKit.framework */,
+				DDF9BD1919382260006DB255 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF9BCFD19382260006DB255 /* cardGame */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9BD0619382260006DB255 /* AppDelegate.h */,
+				DDF9BD0719382260006DB255 /* AppDelegate.m */,
+				DDF9BD0919382260006DB255 /* Main_iPhone.storyboard */,
+				DDF9BD0C19382260006DB255 /* Main_iPad.storyboard */,
+				DDF9BD0F19382260006DB255 /* ViewController.h */,
+				DDF9BD1019382260006DB255 /* ViewController.m */,
+				DDF9BD1219382260006DB255 /* Images.xcassets */,
+				DDF9BCFE19382260006DB255 /* Supporting Files */,
+				DDF9BD2F193822B3006DB255 /* Card.h */,
+				DDF9BD30193822B3006DB255 /* Card.m */,
+				DDF9BD35193828B5006DB255 /* Deck.h */,
+				DDF9BD36193828B5006DB255 /* Deck.m */,
+				DDF9BD3219382678006DB255 /* PlayingCard.h */,
+				DDF9BD3319382678006DB255 /* PlayingCard.m */,
+				DDF9BD3819382E54006DB255 /* PlayingDeck.h */,
+				DDF9BD3919382E54006DB255 /* PlayingDeck.m */,
+			);
+			path = cardGame;
+			sourceTree = "<group>";
+		};
+		DDF9BCFE19382260006DB255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9BCFF19382260006DB255 /* cardGame-Info.plist */,
+				DDF9BD0019382260006DB255 /* InfoPlist.strings */,
+				DDF9BD0319382260006DB255 /* main.m */,
+				DDF9BD0519382260006DB255 /* cardGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF9BD1F19382260006DB255 /* cardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9BD2519382260006DB255 /* cardGameTests.m */,
+				DDF9BD2019382260006DB255 /* Supporting Files */,
+			);
+			path = cardGameTests;
+			sourceTree = "<group>";
+		};
+		DDF9BD2019382260006DB255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9BD2119382260006DB255 /* cardGameTests-Info.plist */,
+				DDF9BD2219382260006DB255 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF9BCF319382260006DB255 /* cardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF9BD2919382260006DB255 /* Build configuration list for PBXNativeTarget "cardGame" */;
+			buildPhases = (
+				DDF9BCF019382260006DB255 /* Sources */,
+				DDF9BCF119382260006DB255 /* Frameworks */,
+				DDF9BCF219382260006DB255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardGame;
+			productName = cardGame;
+			productReference = DDF9BCF419382260006DB255 /* cardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF9BD1719382260006DB255 /* cardGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF9BD2C19382260006DB255 /* Build configuration list for PBXNativeTarget "cardGameTests" */;
+			buildPhases = (
+				DDF9BD1419382260006DB255 /* Sources */,
+				DDF9BD1519382260006DB255 /* Frameworks */,
+				DDF9BD1619382260006DB255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF9BD1E19382260006DB255 /* PBXTargetDependency */,
+			);
+			name = cardGameTests;
+			productName = cardGameTests;
+			productReference = DDF9BD1819382260006DB255 /* cardGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF9BCEC19382260006DB255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bb_coder;
+				TargetAttributes = {
+					DDF9BD1719382260006DB255 = {
+						TestTargetID = DDF9BCF319382260006DB255;
+					};
+				};
+			};
+			buildConfigurationList = DDF9BCEF19382260006DB255 /* Build configuration list for PBXProject "cardGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF9BCEB19382260006DB255;
+			productRefGroup = DDF9BCF519382260006DB255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF9BCF319382260006DB255 /* cardGame */,
+				DDF9BD1719382260006DB255 /* cardGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF9BCF219382260006DB255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9BD0E19382260006DB255 /* Main_iPad.storyboard in Resources */,
+				DDF9BD1319382260006DB255 /* Images.xcassets in Resources */,
+				DDF9BD0B19382260006DB255 /* Main_iPhone.storyboard in Resources */,
+				DDF9BD0219382260006DB255 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF9BD1619382260006DB255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9BD2419382260006DB255 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF9BCF019382260006DB255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9BD1119382260006DB255 /* ViewController.m in Sources */,
+				DDF9BD0819382260006DB255 /* AppDelegate.m in Sources */,
+				DDF9BD0419382260006DB255 /* main.m in Sources */,
+				DDF9BD3419382678006DB255 /* PlayingCard.m in Sources */,
+				DDF9BD37193828B5006DB255 /* Deck.m in Sources */,
+				DDF9BD31193822B3006DB255 /* Card.m in Sources */,
+				DDF9BD3A19382E54006DB255 /* PlayingDeck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF9BD1419382260006DB255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9BD2619382260006DB255 /* cardGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF9BD1E19382260006DB255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF9BCF319382260006DB255 /* cardGame */;
+			targetProxy = DDF9BD1D19382260006DB255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF9BD0019382260006DB255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF9BD0119382260006DB255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDF9BD0919382260006DB255 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF9BD0A19382260006DB255 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF9BD0C19382260006DB255 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF9BD0D19382260006DB255 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF9BD2219382260006DB255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF9BD2319382260006DB255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF9BD2719382260006DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF9BD2819382260006DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF9BD2A19382260006DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardGame/cardGame-Prefix.pch";
+				INFOPLIST_FILE = "cardGame/cardGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDF9BD2B19382260006DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardGame/cardGame-Prefix.pch";
+				INFOPLIST_FILE = "cardGame/cardGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDF9BD2D19382260006DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cardGame.app/cardGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardGame/cardGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cardGameTests/cardGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDF9BD2E19382260006DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cardGame.app/cardGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardGame/cardGame-Prefix.pch";
+				INFOPLIST_FILE = "cardGameTests/cardGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF9BCEF19382260006DB255 /* Build configuration list for PBXProject "cardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF9BD2719382260006DB255 /* Debug */,
+				DDF9BD2819382260006DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF9BD2919382260006DB255 /* Build configuration list for PBXNativeTarget "cardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF9BD2A19382260006DB255 /* Debug */,
+				DDF9BD2B19382260006DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDF9BD2C19382260006DB255 /* Build configuration list for PBXNativeTarget "cardGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF9BD2D19382260006DB255 /* Debug */,
+				DDF9BD2E19382260006DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF9BCEC19382260006DB255 /* Project object */;
+}
